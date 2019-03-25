@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    font-family: Verdana, sans-serif;
+    letter-spacing:  3px;
+    background-color: rgba(0,0,0,.9);
+    color: #CCCCCC;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+  
+}
+
+#header-img {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+   
+} 
+
+#aperture {
+    font-weight: normal;
+    font-size: 25px;
+    display: inline-block;
+    float: left;
+   
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#nav-bar {
+    margin-top: -2.5px;
+    display: inline-block;
+    float: right;
+}
+
+ul { list-style-type: none; }
+
+#nav-bar li { float: right; }
+  
+#nav-bar ul li a {
+
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: #CCCCCC;
+
+}
+  
+  
+#nav-bar ul li a:hover {color: #FFFFFF;}
+ 
+#product {
+    font-family: Avenir,sans-serif; 
+    margin-top: 150px;
+}
+
+#product-title {
+    letter-spacing: -4px;
+    font-size: 100px;
+}
+
+#product-subtitle { font-size: 30px; }
+
+#email {
+    width: 200px;
+    height: auto;
+}
+  
+#email-label { font-family: Avenir, sans-serif; }
+
+#submit:hover { background-color: grey; }
+
+#features {
+    font-family: Avenir, sans-serif;
+    letter-spacing: -1px;
+    font-weight: normal;
+    margin-top: 200px;
+}
+  
+#materials h1 {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+#portal-logo {
+    width: 50px;
+    height: auto;
+    float:left;
+}
+
+#delivery-logo {
+    width:50px;
+    height: auto;
+    float: right;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#delivery-title h1 { text-align: right; }
+
+#delivery { text-align: right; }
+
+#quality-logo {
+    width: 50px;
+    height: auto;
+    float: left;
+    padding-right: 5px;
+    margin-top: -10px;
+}
+
+#quality h2 { padding-top: 5px; }
+
+footer {
+    font-family: Avenir, sans-serif;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+ 
+footer nav { margin-left: -40px; }
+
+footer nav li{
+    display: inline-block;
+    margin-right: 10px;    
+}
+
+footer p { margin-top: -20px; }
+  
+#features {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+  
+#lineup {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Avenir;
+    text-align: center;
+}
+  
+#lineup div { margin: 10px; }
+ 
+@media (max-height: 400px) {
+    body {
+      font-size: 10px;
+    }
+    header {
+      font-size: 5px;
+      width: 100%;
+    }
+}
+
+ 
+
+  
